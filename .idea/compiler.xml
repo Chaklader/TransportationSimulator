@@ -2,19 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fleetman-registry" />
-        <module name="positionreceiver" />
-        <module name="PositionSimulator" />
+        <module name="global-config" />
+        <module name="microservices-registry" />
+        <module name="transport-visualizer" />
+        <module name="transport-simulator" />
+        <module name="vehicle-tracker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="fleetman-registry" target="1.8" />
-      <module name="positionreceiver" target="1.8" />
-      <module name="PositionSimulator" target="1.8" />
+      <module name="global-config" target="1.8" />
+      <module name="microservices-registry" target="1.8" />
+      <module name="transport-simulator" target="1.8" />
+      <module name="transport-visualizer" target="1.8" />
+      <module name="vehicle-tracker" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="global-config" options="" />
+      <module name="microservices-registry" options="-parameters" />
+      <module name="transport-simulator" options="" />
+      <module name="transport-visualizer" options="" />
+    </option>
   </component>
 </project>

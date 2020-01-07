@@ -1,6 +1,6 @@
 package com.transport.visualizer.services;
 
-import com.transport.visualizer.controllers.Position;
+import com.transport.visualizer.models.Position;
 import com.transport.visualizer.domain.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

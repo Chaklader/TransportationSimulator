@@ -4,17 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.transport.simulator</groupId>
-    <artifactId>PositionSimulator</artifactId>
+    <artifactId>transport-simulator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>position-simulator</name>
+    <name>transport-simulator</name>
     <description>A microservice that simulates the positional reports from vehicles</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.0.RELEASE</version>
+        <version>1.4.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 

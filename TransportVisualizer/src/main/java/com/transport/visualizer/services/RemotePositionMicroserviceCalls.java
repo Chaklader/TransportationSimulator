@@ -1,6 +1,6 @@
 package com.transport.visualizer.services;
 
-import com.transport.visualizer.controllers.Position;
+import com.transport.visualizer.models.Position;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

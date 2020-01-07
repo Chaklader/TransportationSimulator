@@ -9,8 +9,6 @@ import org.springframework.stereotype.Repository;
 
 
 /**
- * // Just a standin for a proper database
- *
  * @author Chaklader on 2020-01-07
  */
 @Repository

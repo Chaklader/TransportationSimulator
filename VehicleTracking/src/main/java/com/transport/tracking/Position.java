@@ -7,7 +7,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 
@@ -42,6 +41,11 @@ public class Position implements Comparable<Position> {
         }
     }
 
+    @Override
+    public int compareTo(Position o) {
+        return o.timestamp.compareTo(this.timestamp);
+    }
+
     public BigDecimal getLat() {
         return lat;
     }
@@ -66,8 +70,4 @@ public class Position implements Comparable<Position> {
         this.timestamp = timestamp;
     }
 
-    @Override
-    public int compareTo(Position o) {
-        return o.timestamp.compareTo(this.timestamp);
-    }
 }

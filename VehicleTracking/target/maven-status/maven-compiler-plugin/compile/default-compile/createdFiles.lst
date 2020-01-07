@@ -1,0 +1,6 @@
+com/transport/tracking/VehicleNotFoundException.class
+com/transport/tracking/Data.class
+com/transport/tracking/rest/PositionReportsController.class
+com/transport/tracking/MessageProcessor.class
+com/transport/tracking/Position.class
+com/transport/tracking/VehicleTrackingApplication.class

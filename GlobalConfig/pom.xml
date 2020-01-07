@@ -10,13 +10,13 @@
     <packaging>jar</packaging>
 
     <name>global-config</name>
-    <description>Global configuration project for the micro-services</description>
+    <description>Global Configuration Project for the Micro-services</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.2.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>1.4.1.RELEASE</version>
+        <relativePath/>
     </parent>
 
     <properties>
@@ -27,6 +27,7 @@
 
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
@@ -37,10 +38,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
 
     <dependencyManagement>
+
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -50,13 +53,23 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
+
     </dependencyManagement>
+
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+
+                <dependencies>
+                    <dependency>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring-core</artifactId>
+                        <version>5.2.2.RELEASE</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
 

@@ -29,102 +29,96 @@ import org.springframework.stereotype.Component;
 @Component
 public class JourneySimulator implements Runnable {
 
-	@Autowired
-	private JmsTemplate template;
-	
-	@Value("${fleetman.position.queue}")
-	private String queueName;
+    @Autowired
+    private JmsTemplate template;
 
-	private ExecutorService threadPool;
+    @Value("${fleetman.position.queue}")
+    private String queueName;
 
-	public void run() {
+    private ExecutorService threadPool;
 
-		try {
-			this.runVehicleSimulation();
-		} catch (InterruptedException e) {
-			Thread.currentThread().interrupt();
-		}
-	}
+    public void run() {
 
-	/**
-	 * For each vehicle, a thread is started which simulates a journey for that vehicle. 
-	 * When all vehicles have completed, we start all over again. 
-	 * @throws InterruptedException 
-	 */
-	public void runVehicleSimulation() throws InterruptedException {
-
-		Map<String, List<String>> reports = setUpData();
-		threadPool = Executors.newCachedThreadPool();		
-		
-		boolean stillRunning = true;
-
-		while (stillRunning){
-
-			List<Callable<Object>> calls = new ArrayList<>();
-
-			for (String vehicleName : reports.keySet()){
-
-				// kick off a message sending thread for this vehicle.
-				calls.add(new Journey(vehicleName, reports.get(vehicleName), template, queueName));
-			}
-			
-			threadPool.invokeAll(calls);
-			
-			if (threadPool.isShutdown()){
-				stillRunning = false;
-				System.out.println("Asked to finish!");
-			}
-
-			else{
-				System.out.println("All journeys complete - starting again");
-			}
-		}
-	}
-
-	/**
-	 * Read the data from the resources directory - should work for an executable Jar as
-	 * well as through direct execution
-	 */
-	private Map<String, List<String>> setUpData() {
+        try {
+            this.runVehicleSimulation();
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
 
 
-		Map<String, List<String>> reports = new HashMap<>();
-		PathMatchingResourcePatternResolver path = new PathMatchingResourcePatternResolver();
+    /**
+     * For each vehicle, a thread is started which simulates a journey for
+     * that vehicle. When all vehicles have completed, we start all over
+     * again.
+     *
+     * @throws InterruptedException
+     */
+    public void runVehicleSimulation() throws InterruptedException {
 
-		try {
+        Map<String, List<String>> reports = setUpData();
+        threadPool = Executors.newCachedThreadPool();
 
-			for (Resource nextFile : path.getResources("tracks/*")){
+        boolean isRunning = true;
 
-				URL resource = nextFile.getURL();
-				File f = new File(resource.getFile()); 
+        while (isRunning) {
 
-				String vehicleName = f.getName();
-				InputStream is = PositionsimulatorApplication.class.getResourceAsStream("/tracks/" + f.getName());
+            List<Callable<Object>> calls = new ArrayList<>();
 
-				try (Scanner sc = new Scanner(is)){
+            for (String vehicleName : reports.keySet()) {
+                calls.add(new Journey(vehicleName, reports.get(vehicleName), template, queueName));
+            }
 
-					List<String> thisVehicleReports = new ArrayList<>();
-					
-					while (sc.hasNextLine()){
+            threadPool.invokeAll(calls);
 
-						String nextReport = sc.nextLine();
-						thisVehicleReports.add(nextReport);
-					}
+            if (threadPool.isShutdown()) {
+                isRunning = false;
+                System.out.println("Asked to finish!");
+            } else {
+                System.out.println("All journeys complete - starting again");
+            }
+        }
+    }
 
-					reports.put(vehicleName,thisVehicleReports);
-				}
-			}
+    /**
+     * Read the data from the resources directory - should work
+     * for an executable Jar as well as through direct execution
+     */
+    private Map<String, List<String>> setUpData() {
 
-			return Collections.unmodifiableMap(reports);
-		}
+        Map<String, List<String>> reports = new HashMap<>();
+        PathMatchingResourcePatternResolver path = new PathMatchingResourcePatternResolver();
 
-		catch (IOException e){
-			throw new RuntimeException(e);
-		}
-	}
+        try {
 
-	public void finish() 
-	{
-		threadPool.shutdownNow();
-	}
+            for (Resource nextFile : path.getResources("tracks/*")) {
+
+                URL resource = nextFile.getURL();
+                File f = new File(resource.getFile());
+
+                String vehicleName = f.getName();
+                InputStream is = PositionsimulatorApplication.class.getResourceAsStream("/tracks/" + f.getName());
+
+                try (Scanner sc = new Scanner(is)) {
+
+                    List<String> thisVehicleReports = new ArrayList<>();
+
+                    while (sc.hasNextLine()) {
+                        String nextReport = sc.nextLine();
+                        thisVehicleReports.add(nextReport);
+                    }
+
+                    reports.put(vehicleName, thisVehicleReports);
+                }
+            }
+
+            return Collections.unmodifiableMap(reports);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void finish() {
+        threadPool.shutdownNow();
+    }
 }
