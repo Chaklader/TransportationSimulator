@@ -1,0 +1,13 @@
+com/virtualpairprogrammers/config/SecurityConfiguration$ApiWebSecurityConfigurationAdapter.class
+com/virtualpairprogrammers/services/RemotePositionMicroserviceCalls.class
+com/virtualpairprogrammers/rest/VehicleList.class
+com/virtualpairprogrammers/services/PositionTrackingExternalService.class
+com/virtualpairprogrammers/controllers/VehicleController.class
+com/virtualpairprogrammers/controllers/FirstController.class
+com/virtualpairprogrammers/data/VehicleRepository.class
+com/virtualpairprogrammers/controllers/Position.class
+com/virtualpairprogrammers/config/SecurityConfiguration$FormLoginWebSecurityConfigurerAdapter.class
+com/virtualpairprogrammers/domain/Vehicle.class
+com/virtualpairprogrammers/config/SecurityConfiguration.class
+com/virtualpairprogrammers/rest/VehicleRestController.class
+com/virtualpairprogrammers/FleetmanApplication.class
