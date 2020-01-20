@@ -2,71 +2,72 @@
     
     
     
+    SUMMARY 
+        
+        This repo is for visualizing the vehicles inside a transportation network based on the 
+        micro-service network architechture. All the micro-service use Java, Spring boot, maven 
+        built tool for the development. This for providing an example of how the micro-services
+        can work colectively inside a clode eco-system. I don't belong the code but I refactored
+        and re-write some part of it. 
+        
     
-    +--------------------------+                     +-------------------+
-    |  Microservices Registry  |                     | Vehicle Simulator |
-    +-----+----------------+--++                     +---------+---------+
-          ^                ^  ^                                |
-          |                |  |                                |
-          |                |  |                                |
-          |                |  |                                v
-          |                |  |                      +-------------------+
-          |                |  |                      |     ActiveMQ      |
-          |                |  |                      +-------------------+
-          |                |  |                                ^
-          |                |  +----------------------+         |
-          |                |                         |         |
-          |                |                         |         |
-     +----+----------------+----+                    ++--------+---------+
-     | Transport Visualizer (FE)+-------------------> | Vehicle Tracking |
-     +--------------------------+                     +------------------+
+    
+            
+            +--------------------------+                     +-------------------+
+            |  Microservices Registry  |                     | Vehicle Simulator |
+            +-----+----------------+--++                     +---------+---------+
+                  ^                ^  ^                                |
+                  |                |  |                                |
+                  |                |  |                                |
+                  |                |  |                                v
+                  |                |  |                      +-------------------+
+              Look up            Registers                   |     ActiveMQ      |
+                  |                |  |                      +-------------------+
+                  |                |  |                                ^
+                  |                |  +----------------------+         |
+                  |                |                         |         |
+                  |                |                         |         |
+             +----+----------------+----+                    ++--------+---------+
+             | Transport Visualizer (FE)+-------------------> | Vehicle Tracking |
+             +--------------------------+    REST call        +------------------+
+        
+                                    figure: Microservice architecture
+                                    
+                                    
 
-
-
-    ![1](https://user-images.githubusercontent.com/1360249/72723057-01450100-3baa-11ea-8be3-9301477d1d14.jpg)
-    
-    ![1](https://github.com/Chaklader/TransportSimulationGlobalConfig/issues/2#issue-552240611)
-         
-         fig: Transportation Micro-service Architecture
-         
-    ![2](https://user-images.githubusercontent.com/1360249/72723102-1588fe00-3baa-11ea-8afa-72c0eeebad41.jpg)
-             
-             fig: Load Balancer with the Micro-services
-             
-    ![3](https://user-images.githubusercontent.com/1360249/72723123-246fb080-3baa-11ea-9632-0afb6e085e32.jpg)
-             
-             fig: Load Balancer with the Micro-services         
-    
-    
-    
-    Run the Spring Boot project:
-    
-        $ mvn spring-boot:run
-        $ mvn org.springframework.boot:spring-boot-maven-plugin:run
-    
-    
     Start the ActiveMQ in the terminal: 
-    
-        $ brew services start activemq
-    
-    
-    Stop the ActiveMQ in the terminal: 
         
-        $ brew services stop activemq
-        
-        
+            $ brew services start activemq
+            
     The login in the ActiveMQ server will be: 
-    
-        Username: admin
-        Password: admin
         
-        
-    Run a Spring boot project from the command line: 
-    
-        $ mvn spring-boot:run
+            Username: admin
+            Password: admin
 
     Reach the ActiveMQ dashboard in the local server:
-    
-        <http://localhost:8161/>
         
-        <http://localhost:8080//website/vehicles/list.html>
+            <http://localhost:8161/>            
+        
+    Run the microservices in the following orders
+    
+        1. Global config 
+        2. Microservices registry
+        3. Vehicle tracking 
+        4. Trasportation visualizer 
+        5.Transport simulator 
+                                                    
+      
+    To run the micro-service, enter inside the respective repo and use the command
+    from the terminal: 
+    
+        $ mvn spring-boot:run
+        
+        # This command will work too
+        #$ mvn org.springframework.boot:spring-boot-maven-plugin:run
+    
+    
+    
+    The vehicles can be seen in the FE map:
+    
+        <http://localhost:8080/website/vehicles/vehicle/village_truck>        
+  
