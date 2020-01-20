@@ -1,14 +1,14 @@
 
     
-    ![alternativetext](https://github.com/Chaklader/TransportationSimulator/blob/master/images/1.jpg)
+    ![1](https://user-images.githubusercontent.com/1360249/72723057-01450100-3baa-11ea-8be3-9301477d1d14.jpg)
          
          fig: Transportation Micro-service Architecture
          
-    ![Alt text](https://github.com/Chaklader/TransportSimulationGlobalConfig/blob/master/images/2.png?raw=true "Optional Title")
+    ![2](https://user-images.githubusercontent.com/1360249/72723102-1588fe00-3baa-11ea-8afa-72c0eeebad41.jpg)
              
              fig: Load Balancer with the Micro-services
              
-    ![Alt text](https://github.com/Chaklader/TransportSimulationGlobalConfig/blob/master/images/3.png?raw=true "Optional Title")
+    ![3](https://user-images.githubusercontent.com/1360249/72723123-246fb080-3baa-11ea-9632-0afb6e085e32.jpg)
              
              fig: Load Balancer with the Micro-services         
     
