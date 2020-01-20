@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TransportVisualizer/TransportVisualizer.iml" filepath="$PROJECT_DIR$/TransportVisualizer/TransportVisualizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TransportationSimulator.iml" filepath="$PROJECT_DIR$/.idea/TransportationSimulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TransportVisualizer/fleetman.iml" filepath="$PROJECT_DIR$/TransportVisualizer/fleetman.iml" />
       <module fileurl="file://$PROJECT_DIR$/GlobalConfig/global-config.iml" filepath="$PROJECT_DIR$/GlobalConfig/global-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/MicroservicesRegistry/microservices-registry.iml" filepath="$PROJECT_DIR$/MicroservicesRegistry/microservices-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/VehicleSimulator/transport-simulator.iml" filepath="$PROJECT_DIR$/VehicleSimulator/transport-simulator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TransportVisualizer/transport-visualizer.iml" filepath="$PROJECT_DIR$/TransportVisualizer/transport-visualizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/VehicleTracking/vehicle-tracker.iml" filepath="$PROJECT_DIR$/VehicleTracking/vehicle-tracker.iml" />
     </modules>
   </component>

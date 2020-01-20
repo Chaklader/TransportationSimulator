@@ -9,8 +9,8 @@
         <option value="$PROJECT_DIR$/GlobalConfig/pom.xml" />
         <option value="$PROJECT_DIR$/MicroservicesRegistry/pom.xml" />
         <option value="$PROJECT_DIR$/VehicleSimulator/pom.xml" />
-        <option value="$PROJECT_DIR$/TransportVisualizer/pom.xml" />
         <option value="$PROJECT_DIR$/VehicleTracking/pom.xml" />
+        <option value="$PROJECT_DIR$/TransportVisualizer/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,18 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="transport-visualizer" />
         <module name="transport-simulator" />
-        <module name="vehicle-tracker" />
         <module name="microservices-registry" />
         <module name="global-config" />
+        <module name="vehicle-tracker" />
+        <module name="TransportVisualizer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fleetman" target="1.8" />
       <module name="global-config" target="1.8" />
       <module name="microservices-registry" target="1.8" />
       <module name="transport-simulator" target="1.8" />
       <module name="transport-visualizer" target="1.8" />
+      <module name="TransportVisualizer" target="1.8" />
       <module name="vehicle-tracker" target="1.8" />
     </bytecodeTargetLevel>
   </component>
