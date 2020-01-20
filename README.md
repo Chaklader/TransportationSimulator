@@ -1,7 +1,7 @@
 
     
     
-    ![Transportation Micro-service Architecture](images/1.png)
+    ![Transportation Micro-service Architecture](~/TransportationSimulator/blob/master/images/1.png)
          
          fig: Transportation Micro-service Architecture
          
