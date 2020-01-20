@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75fcf58d-29b9-4d87-b934-1b90e9141479" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/Database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/Database.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/Database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/Database.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Fleetman/target/" />
     <ignored path="$PROJECT_DIR$/PositionSimulator/target/" />
@@ -34,7 +32,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="24">
+                <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,7 +112,6 @@
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleRestController.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/Application.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/PositionTrackingExternalService.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/controllers/VehicleController.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/FleetmanApplication.java" />
@@ -109,6 +119,7 @@
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/VehicleController.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/RemotePositionMicroserviceCalls.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -134,13 +145,28 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="TransportationSimulator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TransportationSimulator" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,6 +188,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -394,15 +425,16 @@
       <workItem from="1579448154520" duration="3086000" />
       <workItem from="1579493926491" duration="1771000" />
       <workItem from="1579496124041" duration="735000" />
-      <workItem from="1579496948473" duration="330000" />
+      <workItem from="1579496948473" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45506000" />
+    <option name="totallyTimeSpent" value="45786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -478,7 +510,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MicroservicesRegistry/src/main/java/com/transport/visualizer/A.java" />
     <entry file="file://$PROJECT_DIR$/VehicleSimulator/src/main/java/com/transport/simulator/A.java" />
     <entry file="file://$PROJECT_DIR$/MicroservicesRegistry/src/test/java/com/transport/visualizer/MicroservicesRegistryApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -694,16 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="59">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TransportVisualizer/README.md" />
     <entry file="file://$PROJECT_DIR$/GlobalConfig/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -743,6 +764,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="24">
+            <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
