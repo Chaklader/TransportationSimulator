@@ -4,135 +4,57 @@
     <loaded-modules>
       <module name="TransportationSimulator" />
       <module name="transport-simulator" />
-      <module name="microservices-registry" />
-      <module name="global-config" />
       <module name="vehicle-tracker" />
+      <module name="microservices-registry" />
       <module name="TransportVisualizer" />
+      <module name="global-config" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75fcf58d-29b9-4d87-b934-1b90e9141479" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransportVisualizer/TransportVisualizer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransportVisualizer/fleetman.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TransportationSimulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TransportationSimulator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_7_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_191.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_0_32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_11_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_9_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransportVisualizer/Database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/Database.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransportVisualizer/Database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/Database.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/TransportVisualizer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/fleetman.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TransportVisualizer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/config/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/FirstController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/VehicleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/data/VehicleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/domain/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/models/Position.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/PositionTrackingExternalService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/RemotePositionMicroserviceCalls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/test/java/com/transport/visualizer/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/config/SecurityConfiguration$ApiWebSecurityConfigurationAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/config/SecurityConfiguration$FormLoginWebSecurityConfigurerAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/config/SecurityConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/controllers/FirstController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/controllers/VehicleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/data/VehicleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/domain/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/models/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/rest/VehicleList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/rest/VehicleRestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/services/PositionTrackingExternalService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/transport/visualizer/services/RemotePositionMicroserviceCalls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/FirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/controllers/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/controllers/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/data/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/data/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/domain/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/domain/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/rest/VehicleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/rest/VehicleRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/services/PositionTrackingExternalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/PositionTrackingExternalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/services/RemotePositionMicroserviceCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/RemotePositionMicroserviceCalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/src/test/java/com/virtualpairprogrammers/AppTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/FleetmanApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/config/SecurityConfiguration$ApiWebSecurityConfigurationAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/config/SecurityConfiguration$FormLoginWebSecurityConfigurerAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/config/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/controllers/FirstController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/controllers/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/controllers/VehicleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/data/VehicleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/domain/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/rest/VehicleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/rest/VehicleRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/services/PositionTrackingExternalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/classes/com/virtualpairprogrammers/services/RemotePositionMicroserviceCalls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/fleetman-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/fleetman-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/TransportVisualizer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/transport-visualizer-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/transport-visualizer-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransportVisualizer/transport-visualizer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/surefire-reports/TEST-com.virtualpairprogrammers.FleetmanApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/surefire-reports/com.virtualpairprogrammers.FleetmanApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransportVisualizer/target/test-classes/com/virtualpairprogrammers/FleetmanApplicationTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Fleetman/target/" />
     <ignored path="$PROJECT_DIR$/PositionSimulator/target/" />
@@ -156,17 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TransportVisualizer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="336">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -195,9 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/tracker/controllers/Position.java" />
-        <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/tracker/data/VehicleRepository.java" />
-        <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/tracker/domain/Vehicle.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/tracker/rest/VehicleList.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/tracker/rest/VehicleRestController.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/test/java/com/transport/tracker/FleetmanApplicationTests.java" />
@@ -239,12 +149,15 @@
         <option value="$PROJECT_DIR$/VehicleTracking/pom.xml" />
         <option value="$PROJECT_DIR$/MicroservicesRegistry/pom.xml" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleRestController.java" />
-        <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/RemotePositionMicroserviceCalls.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/Application.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/PositionTrackingExternalService.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/controllers/VehicleController.java" />
+        <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/FleetmanApplication.java" />
+        <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/App.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/VehicleController.java" />
+        <option value="$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/RemotePositionMicroserviceCalls.java" />
         <option value="$PROJECT_DIR$/TransportVisualizer/pom.xml" />
       </list>
     </option>
@@ -270,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,73 +194,22 @@
             <path>
               <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="GlobalConfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="GlobalConfig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="GlobalConfig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="GlobalConfig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
               <item name="TransportVisualizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="TransportVisualizer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="TransportVisualizer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="TransportVisualizer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="VehicleTracking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -372,8 +235,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.FleetmanApplication (3)">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="TransportVisualizer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.virtualpairprogrammers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.virtualpairprogrammers.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="TransportVisualizer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.transport.visualizer.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="transport-visualizer" />
       <extension name="coverage">
         <pattern>
@@ -381,13 +264,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.transport.visualizer.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="TransportVisualizer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.transport.visualizer.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -401,8 +277,22 @@
       </method>
     </configuration>
     <configuration name="FleetmanApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="TransportVisualizer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.virtualpairprogrammers.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FleetmanApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="fleetman" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.virtualpairprogrammers.FleetmanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FleetmanApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fleetman" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.transport.visualizer.FleetmanApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -498,6 +388,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisualizerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fleetman" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.transport.visualizer.VisualizerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.FleetmanApplication" />
       <item itemvalue="Spring Boot.PositionreceiverApplication" />
@@ -513,12 +410,15 @@
       <item itemvalue="Spring Boot.FleetmanRegistryApplication (1)" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.PositionreceiverApplication (2)" />
+      <item itemvalue="Spring Boot.FleetmanApplication (3)" />
+      <item itemvalue="Spring Boot.VisualizerApp" />
+      <item itemvalue="Spring Boot.App" />
       <item itemvalue="Spring Boot.GlobalConfigApplication (1)" />
-      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.FleetmanApplication (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Spring Boot.FleetmanApplication (3)" />
         <item itemvalue="Spring Boot.GlobalConfigApplication (1)" />
       </list>
     </recent_temporary>
@@ -547,17 +447,19 @@
       <workItem from="1578645828731" duration="988000" />
       <workItem from="1579341478092" duration="8331000" />
       <workItem from="1579448154520" duration="3086000" />
+      <workItem from="1579493926491" duration="1771000" />
+      <workItem from="1579496124041" duration="496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42670000" />
+    <option name="totallyTimeSpent" value="44937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -579,7 +481,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -630,20 +532,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnloadedModulesList">
-    <module name="fleetman" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GlobalConfig/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VehicleTracking/src/main/java/com/transport/tracking/rest/A.java" />
-    <entry file="file://$PROJECT_DIR$/GlobalConfig/src/main/java/com/transport.config/A.java" />
-    <entry file="file://$PROJECT_DIR$/GlobalConfig/fleetman-global-config.iml" />
     <entry file="file://$PROJECT_DIR$/MicroservicesRegistry/src/main/java/com/transport/visualizer/A.java" />
     <entry file="file://$PROJECT_DIR$/VehicleSimulator/src/main/java/com/transport/simulator/A.java" />
     <entry file="file://$PROJECT_DIR$/MicroservicesRegistry/src/test/java/com/transport/visualizer/MicroservicesRegistryApplicationTests.java">
@@ -691,16 +580,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GlobalConfig/target/surefire-reports/com.transport.config.GlobalConfigApplicationTests.txt" />
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/test/java/com/transport/visualizer/ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/test/java/com/transport/visualizer/ApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/VehicleSimulator/src/main/java/com/transport/simulator/models/JourneySimulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -844,33 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/config/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/models/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VehicleSimulator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/models/Position.java" />
     <entry file="file://$PROJECT_DIR$/VehicleTracking/src/test/java/com/transport/tracking/VehicleTrackingApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -905,41 +759,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/domain/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/data/VehicleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/README.md" />
     <entry file="file://$PROJECT_DIR$/GlobalConfig/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -947,77 +767,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="12" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleList.java">
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/Application.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleRestController.java">
+    <entry file="file://$PROJECT_DIR$/VehicleSimulator/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/FirstController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/VehicleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/RemotePositionMicroserviceCalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/PositionTrackingExternalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/virtualpairprogrammers/App.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/config/SecurityConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/VehicleController.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/Position.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/controllers/FirstController.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/data/VehicleRepository.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/domain/Vehicle.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleRestController.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/RemotePositionMicroserviceCalls.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/VisualizerApp.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/services/PositionTrackingExternalService.java" />
+    <entry file="file://$PROJECT_DIR$/TransportVisualizer/src/main/java/com/transport/visualizer/rest/VehicleList.java" />
     <entry file="file://$PROJECT_DIR$/TransportVisualizer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="336">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>

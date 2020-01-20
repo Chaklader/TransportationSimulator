@@ -6,8 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/GlobalConfig/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MicroservicesRegistry/target" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/VehicleSimulator/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/TransportVisualizer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/VehicleTracking/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TransportVisualizer/src" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

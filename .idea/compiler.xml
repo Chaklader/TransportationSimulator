@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="transport-simulator" />
         <module name="microservices-registry" />
+        <module name="fleetman" />
         <module name="global-config" />
         <module name="vehicle-tracker" />
         <module name="TransportVisualizer" />
