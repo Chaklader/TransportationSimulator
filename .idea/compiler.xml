@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="global-config" />
-        <module name="microservices-registry" />
         <module name="transport-visualizer" />
         <module name="transport-simulator" />
         <module name="vehicle-tracker" />
+        <module name="microservices-registry" />
+        <module name="global-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,7 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="global-config" options="" />
-      <module name="microservices-registry" options="-parameters" />
+      <module name="microservices-registry" options="" />
       <module name="transport-simulator" options="" />
       <module name="transport-visualizer" options="" />
     </option>

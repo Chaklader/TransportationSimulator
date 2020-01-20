@@ -21,6 +21,7 @@ public class PositionsimulatorApplication {
         ConfigurableApplicationContext ctx = SpringApplication.run(PositionsimulatorApplication.class);
 
         try {
+
             final JourneySimulator simulator = ctx.getBean(JourneySimulator.class);
 
             Thread mainThread = new Thread(simulator);

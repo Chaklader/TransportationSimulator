@@ -42,11 +42,13 @@ public class Journey implements Callable<Object> {
         for (String nextReport : this.positions) {
 
             String[] data = nextReport.split("\"");
+
             String lat = data[1];
             String longitude = data[3];
 
             // Spring will convert a HashMap into a MapMessage using the default MessageConverter.
             HashMap<String, String> positionMessage = new HashMap<>();
+
             positionMessage.put("vehicle", vehicleName);
             positionMessage.put("lat", lat);
             positionMessage.put("long", longitude);
@@ -58,6 +60,7 @@ public class Journey implements Callable<Object> {
             // distributed
             delay(Math.random() * 200 + 200);
         }
+
         System.out.println(vehicleName + " has now completed its journey. Having a tea break.");
         return null;
     }

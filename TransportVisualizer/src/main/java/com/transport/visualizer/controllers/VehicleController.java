@@ -48,7 +48,6 @@ public class VehicleController {
 //        data.delete(vehicle);
 
         data.delete(id);
-
         return "redirect:/website/vehicles/list.html";
     }
 

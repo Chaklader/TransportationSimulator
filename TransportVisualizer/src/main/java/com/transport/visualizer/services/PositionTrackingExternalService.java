@@ -2,6 +2,7 @@ package com.transport.visualizer.services;
 
 import com.transport.visualizer.models.Position;
 import com.transport.visualizer.domain.Vehicle;
+import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +17,7 @@ public class PositionTrackingExternalService {
 
 
     @Autowired
-    private RemotePositionMicroserviceCalls remoteService;
+    private ObjectProvider<RemotePositionMicroserviceCalls> remoteService;
 
     @Autowired
     private VehicleRepository repository;
@@ -24,7 +25,7 @@ public class PositionTrackingExternalService {
     @HystrixCommand(fallbackMethod = "handleExternalServiceDown")
     public Position getLatestPositionForVehicleFromRemoteMicroservice(String name) {
 
-        Position response = remoteService.getLatestPositionForVehicle(name);
+        Position response = remoteService.getObject().getLatestPositionForVehicle(name);
 
         response.setUpToDate(true);
         return response;

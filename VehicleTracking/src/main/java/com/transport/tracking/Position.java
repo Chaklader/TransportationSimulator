@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import javax.xml.bind.annotation.XmlRootElement;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 
@@ -23,7 +24,6 @@ public class Position implements Comparable<Position> {
     private Date timestamp;
 
     public Position() {
-
     }
 
     public Position(String lat, String longitude, String timestamp) {

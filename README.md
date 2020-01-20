@@ -25,3 +25,9 @@
     Run a Spring boot project from the command line: 
     
         $ mvn spring-boot:run
+
+    Reach the ActiveMQ dashboard in the local server:
+    
+        <http://localhost:8161/>
+        
+        <http://localhost:8080//website/vehicles/list.html>
