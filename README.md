@@ -54,7 +54,7 @@
         2. Microservices registry
         3. Vehicle tracking 
         4. Trasportation visualizer 
-        5.Transport simulator 
+        5. Transport simulator 
                                                     
       
     To run the micro-service, enter inside the respective repo and use the command
