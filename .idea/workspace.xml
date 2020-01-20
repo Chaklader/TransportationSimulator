@@ -11,7 +11,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75fcf58d-29b9-4d87-b934-1b90e9141479" name="Default Changelist" comment="" />
+    <list default="true" id="75fcf58d-29b9-4d87-b934-1b90e9141479" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/Fleetman/target/" />
     <ignored path="$PROJECT_DIR$/PositionSimulator/target/" />
     <ignored path="$PROJECT_DIR$/PositionTracking/target/" />
@@ -35,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <first_editor relative-caret-position="48">
+                <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -150,11 +152,6 @@
             <path>
               <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransportationSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransportationSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -413,15 +410,16 @@
       <workItem from="1579448154520" duration="3086000" />
       <workItem from="1579493926491" duration="1771000" />
       <workItem from="1579496124041" duration="735000" />
-      <workItem from="1579496948473" duration="1785000" />
+      <workItem from="1579496948473" duration="2805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46961000" />
+    <option name="totallyTimeSpent" value="47981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -497,7 +495,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VehicleSimulator/src/main/java/com/transport/simulator/A.java" />
     <entry file="file://$PROJECT_DIR$/MicroservicesRegistry/src/test/java/com/transport/visualizer/MicroservicesRegistryApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -760,11 +757,14 @@
     <entry file="file://$PROJECT_DIR$/images/2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="216">
-            <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <first_editor relative-caret-position="48">
+            <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
